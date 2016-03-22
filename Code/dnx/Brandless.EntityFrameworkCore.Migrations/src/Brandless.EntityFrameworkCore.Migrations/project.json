@@ -1,0 +1,24 @@
+﻿{
+  "version": "1.0.0-rc2-00001",
+  "description": "Brandless.EntityFrameworkCore.Migrations Class Library",
+  "authors": [ "Josh Comley" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+  },
+
+  "dependencies": {
+    "dotnet-ef": "1.0.0-rc2-20266",
+    "Microsoft.EntityFrameworkCore": "1.0.0-rc2-20266",
+    "JetBrains.Annotations": "10.1.2-eap"
+  },
+
+  "commands": {
+  },
+
+  "frameworks": {
+    "dnxcore50": { }
+  }
+}
