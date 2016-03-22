@@ -1,0 +1,22 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Migrations.DataContext Class Library",
+  "authors": [ "Josh Comley" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "Microsoft.EntityFrameworkCore": "1.0.0-rc2-20270",
+    "Microsoft.EntityFrameworkCore.Relational.Design": "1.0.0-rc2-20270",
+    "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc2-20270",
+    "Microsoft.EntityFrameworkCore.Commands": "1.0.0-rc2-20270",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0-rc2-20270",
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0-rc2-20270",
+    "Brandless.EntityFrameworkCore.Migrations": "1.0.0-rc2-*"
+  },
+
+  "frameworks": {
+    "dnxcore50": { }
+  }
+}

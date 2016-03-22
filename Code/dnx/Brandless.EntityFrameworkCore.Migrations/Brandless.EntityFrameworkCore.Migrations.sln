@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Brandless.EntityFrameworkCore.Migrations", "src\Brandless.EntityFrameworkCore.Migrations\Brandless.EntityFrameworkCore.Migrations.xproj", "{5D36E6C7-3A45-4100-BF42-F45B91970913}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Migrations.DataContext", "src\Migrations.DataContext\Migrations.DataContext.xproj", "{86B6F4DA-07EB-4880-A1AD-9E6C99B836C8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Migrations.Console", "src\Migrations.Console\Migrations.Console.xproj", "{F50C867C-3904-48C2-9E69-3B884ECDD7D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,21 @@ Global
 		{5D36E6C7-3A45-4100-BF42-F45B91970913}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D36E6C7-3A45-4100-BF42-F45B91970913}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D36E6C7-3A45-4100-BF42-F45B91970913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B6F4DA-07EB-4880-A1AD-9E6C99B836C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B6F4DA-07EB-4880-A1AD-9E6C99B836C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B6F4DA-07EB-4880-A1AD-9E6C99B836C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B6F4DA-07EB-4880-A1AD-9E6C99B836C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50C867C-3904-48C2-9E69-3B884ECDD7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50C867C-3904-48C2-9E69-3B884ECDD7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50C867C-3904-48C2-9E69-3B884ECDD7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50C867C-3904-48C2-9E69-3B884ECDD7D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5D36E6C7-3A45-4100-BF42-F45B91970913} = {2CAF7F34-BE49-4400-9F2B-4E7EFF5109CC}
+		{86B6F4DA-07EB-4880-A1AD-9E6C99B836C8} = {2CAF7F34-BE49-4400-9F2B-4E7EFF5109CC}
+		{F50C867C-3904-48C2-9E69-3B884ECDD7D6} = {2CAF7F34-BE49-4400-9F2B-4E7EFF5109CC}
 	EndGlobalSection
 EndGlobal

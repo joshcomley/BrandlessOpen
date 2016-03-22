@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0-*",
+  "description": "Migrations.Console Console Application",
+  "authors": [ "Josh Comley" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Brandless.EntityFrameworkCore.Migrations": "1.0.0-rc2-00003",
+    "Migrations.DataContext": "1.0.0-*",
+    "NETStandard.Library": "1.5.0-rc3-23922"
+  },
+
+  "commands": {
+    "Migrations.Console": "Migrations.Console"
+  },
+
+  "frameworks": {
+    "dnxcore50": { }
+  }
+}
