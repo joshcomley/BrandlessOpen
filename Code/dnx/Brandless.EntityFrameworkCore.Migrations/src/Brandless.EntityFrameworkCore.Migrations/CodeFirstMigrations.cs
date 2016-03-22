@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Reflection;
 using JetBrains.Annotations;
+using Microsoft.DotNet.Cli.Utils;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore.Design.Internal;
@@ -36,8 +37,21 @@ namespace Brandless.EntityFrameworkCore.Migrations
 				var services = _servicesBuilder.Build(context);
 				var requiredService = services.GetRequiredService<MigrationsScaffolder>();
 				var migration = requiredService.ScaffoldMigration(name, @namespace, "");
-				return requiredService.Save(ProjectPath, migration);
+				var files = requiredService.Save(ProjectPath, migration);
+				Console.WriteLine(string.Format("Migration \"{0}\" successfully scaffolded", name).Bold().Black());
+				Console.WriteLine();
+				WrieOutFile("Metadata", files.MetadataFile);
+				WrieOutFile("Migration", files.MigrationFile);
+				WrieOutFile("Snapshot", files.SnapshotFile);
+				return files;
 			}
+		}
+
+		private static void WrieOutFile(string fileType, string file)
+		{
+			Console.WriteLine(string.Format("{0} file:", fileType).Bold());
+			Console.WriteLine(file.Yellow());
+			Console.WriteLine();
 		}
 	}
 }
