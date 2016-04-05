@@ -11,9 +11,8 @@
   },
 
   "dependencies": {
-    "Brandless.EntityFrameworkCore.Migrations": "1.0.0-rc2-00003",
-    "Migrations.DataContext": "1.0.0-*",
-    "NETStandard.Library": "1.5.0-rc3-23922"
+    "Brandless.EntityFrameworkCore.Migrations": "1.0.0-*",
+    "Migrations.DataContext": "1.0.0-*"
   },
 
   "commands": {
@@ -21,6 +20,19 @@
   },
 
   "frameworks": {
-    "dnxcore50": { }
+    "net451": {
+      "frameworkAssemblies": {
+        "mscorlib": "4.0.0.0"
+      }
+    },
+    "netstandardapp1.5": {
+      "dependencies": {
+        "NETStandard.Library": "1.5.0-*"
+      },
+      "imports": [
+        "dnxcore50",
+        "portable-net451+win8"
+      ]
+    }
   }
 }

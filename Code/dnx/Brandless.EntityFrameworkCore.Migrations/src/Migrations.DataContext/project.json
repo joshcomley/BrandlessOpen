@@ -7,16 +7,25 @@
   "licenseUrl": "",
 
   "dependencies": {
-    "Microsoft.EntityFrameworkCore": "1.0.0-rc2-20270",
-    "Microsoft.EntityFrameworkCore.Relational.Design": "1.0.0-rc2-20270",
-    "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc2-20270",
-    "Microsoft.EntityFrameworkCore.Commands": "1.0.0-rc2-20270",
-    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0-rc2-20270",
-    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0-rc2-20270",
+    "Microsoft.EntityFrameworkCore": "1.0.0-rc2-*",
+    "Microsoft.EntityFrameworkCore.Relational.Design": "1.0.0-rc2-*",
+    "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc2-*",
+    "Microsoft.EntityFrameworkCore.Commands": "1.0.0-rc2-*",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0-rc2-*",
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0-rc2-*",
     "Brandless.EntityFrameworkCore.Migrations": "1.0.0-rc2-*"
   },
 
   "frameworks": {
-    "dnxcore50": { }
+    "net451": { },
+    "netstandardapp1.5": {
+      "dependencies": {
+        "NETStandard.Library": "1.5.0-*"
+      },
+      "imports": [
+        "dnxcore50",
+        "portable-net451+win8"
+      ]
+    }
   }
 }
