@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.0-rc2-00003",
+  "version": "1.0.0-rc2-00005",
   "description": "Brandless.EntityFrameworkCore.Migrations Class Library",
   "authors": [ "Josh Comley" ],
   "tags": [ "" ],
@@ -11,7 +11,7 @@
 
   "dependencies": {
     "NETStandard.Library": "1.5.0-rc3-23922",
-    "Microsoft.DotNet.Cli.Utils": "1.0.0-beta-001933",
+    "Microsoft.DotNet.Cli.Utils": "1.0.0-beta-001584",
     "Microsoft.EntityFrameworkCore.Commands": "1.0.0-rc2-20270",
     "JetBrains.Annotations": "10.1.2-eap"
   },
