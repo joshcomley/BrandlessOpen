@@ -21,7 +21,8 @@ namespace Brandless.EntityFrameworkCore.Migrations
 			ResolveDbContext = resolveDbContext;
 			var entryAssembly = dbContextType.GetTypeInfo().Assembly;
 			var al = new AssemblyLoader(name => entryAssembly);
-			var startupInvoker = new StartupInvoker(entryAssembly, "Debug", AppContext.BaseDirectory);
+			
+			var startupInvoker = new StartupInvoker(entryAssembly, "Debug", projectPath);
 			_servicesBuilder = new DesignTimeServicesBuilder(al, startupInvoker);
 		}
 
