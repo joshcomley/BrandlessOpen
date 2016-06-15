@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.0-rc2-00009",
+  "version": "1.0.0-rc2-00010",
   "description": "Brandless.EntityFrameworkCore.Migrations Class Library",
   "authors": [ "Josh Comley" ],
   "tags": [ "" ],
@@ -10,9 +10,9 @@
   },
 
   "dependencies": {
-    "Microsoft.DotNet.Cli.Utils": "1.0.0-rc2-*",
-    "Microsoft.EntityFrameworkCore.Commands": "1.0.0-rc2-*",
-    "JetBrains.Annotations": "10.1.2-eap"
+    "Microsoft.DotNet.Cli.Utils": "1.0.0-preview1-002702",
+    "JetBrains.Annotations": "10.1.2-eap",
+    "Microsoft.EntityFrameworkCore.Tools.Core": "1.0.0-rc2-final"
   },
 
   "commands": {

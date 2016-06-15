@@ -10,7 +10,7 @@
     "Microsoft.EntityFrameworkCore": "1.0.0-rc2-*",
     "Microsoft.EntityFrameworkCore.Relational.Design": "1.0.0-rc2-*",
     "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc2-*",
-    "Microsoft.EntityFrameworkCore.Commands": "1.0.0-rc2-*",
+    "Microsoft.EntityFrameworkCore.Tools.Core": "1.0.0-rc2-final",
     "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0-rc2-*",
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0-rc2-*",
     "Brandless.EntityFrameworkCore.Migrations": "1.0.0-rc2-*"

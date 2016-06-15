@@ -38,8 +38,8 @@ namespace Brandless.EntityFrameworkCore.Migrations
 				var services = _servicesBuilder.Build(context);
 				var requiredService = services.GetRequiredService<MigrationsScaffolder>();
 				var migration = requiredService.ScaffoldMigration(name, @namespace, "");
-				var files = requiredService.Save(ProjectPath, migration);
-				Console.WriteLine(string.Format("Migration \"{0}\" successfully scaffolded", name).Bold().Black());
+				var files = requiredService.Save(ProjectPath, migration, null);
+				Console.WriteLine($"Migration \"{name}\" successfully scaffolded".Bold().Black());
 				Console.WriteLine();
 				WrieOutFile("Metadata", files.MetadataFile);
 				WrieOutFile("Migration", files.MigrationFile);
@@ -50,7 +50,7 @@ namespace Brandless.EntityFrameworkCore.Migrations
 
 		private static void WrieOutFile(string fileType, string file)
 		{
-			Console.WriteLine(string.Format("{0} file:", fileType).Bold());
+			Console.WriteLine($"{fileType} file:".Bold());
 			Console.WriteLine(file.Yellow());
 			Console.WriteLine();
 		}
