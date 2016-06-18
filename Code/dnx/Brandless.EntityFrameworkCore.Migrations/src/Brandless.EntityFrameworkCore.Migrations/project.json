@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.0-rc2-00010",
+  "version": "1.0.0-rc2-00012",
   "description": "Brandless.EntityFrameworkCore.Migrations Class Library",
   "authors": [ "Josh Comley" ],
   "tags": [ "" ],
@@ -33,6 +33,11 @@
         "dnxcore50",
         "portable-net451+win8"
       ]
+    },
+    "netcoreapp1.0": {
+      "dependencies": {
+        "NETStandard.Library": "1.5.0-*"
+      }
     }
   }
 }

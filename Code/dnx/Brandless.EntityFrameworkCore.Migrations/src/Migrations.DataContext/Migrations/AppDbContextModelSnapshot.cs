@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Migrations.DataContext;
 
-namespace DBBrandlessOpenCodednxBrandless.EntityFrameworkCore.Migrationssrc.Migrations
+namespace DCodeGitBrandlessBrandlessOpenCodednxBrandless.EntityFrameworkCore.Migrationssrc.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
@@ -13,7 +13,7 @@ namespace DBBrandlessOpenCodednxBrandless.EntityFrameworkCore.Migrationssrc.Migr
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
             modelBuilder
-                .HasAnnotation("ProductVersion", "1.0.0-rc2-20459")
+                .HasAnnotation("ProductVersion", "1.0.0-rc2-patched-00006")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole", b =>

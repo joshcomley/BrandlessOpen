@@ -20,11 +20,6 @@
   },
 
   "frameworks": {
-    "net451": {
-      "frameworkAssemblies": {
-        "mscorlib": "4.0.0.0"
-      }
-    },
     "netstandardapp1.5": {
       "dependencies": {
         "NETStandard.Library": "1.5.0-*"
